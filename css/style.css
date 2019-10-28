@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Assistant|Liu+Jian+Mao+Cao&display=swap');
+
+
+
+/******************************************ESTILOS PARA LA VISTA EN NAVEGADOR/PC*****************************************************/
+
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+    color:#1A1108;
+}
+/*SCROLLBAR STYLES*/
+::-webkit-scrollbar-track{
+
+    background:#ECE9E4;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #472f18;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #1A1108;
+}
+/*FIN SCROLLBAR*/
+
+/*El estilo de lista deja un margen superior que quiero quitar para ajustar la pagina a lo alto*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    color:#ECE9E4;
+    font-family: "Assistant", sans-serif;
+    position: fixed;
+    top:0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #1A1108;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 99;
+}
+.logo{
+    float: left;
+    width: 175px;
+    height: 100%;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+.menu{
+    float:right;
+    width: 60%;
+    margin: 0;
+    line-height: 100px;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+li{
+    float:right;
+    margin-right: 10%;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+    font-weight: 400;
+}
+#now{
+    text-shadow: 1px 1px;
+}
+a{
+    text-decoration: none;
+    color: #ECE9E4;
+    
+}
+.movil{display:none;}
+
+/******* SERVICES SECTION **********/
+.services{
+    
+    width: 100%;
+    background: #ECE9E4;
+    color: #ECE9E4;
+    text-align: center;
+    background-image: url(../img/bgs1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.servicescontainer{
+    padding-top: 50px;
+}
+.sectionsub{
+    margin: 0;
+    font-family: "Great vibes",serif;
+    font-size: 350%;
+    font-weight: 100;
+    line-height: 0;
+    padding-top: 50px;
+    color: #1A1108;
+}
+
+.sectiontit{
+    font-size: 300%;
+    line-height: 0;
+    color: #1A1108;
+
+}
+
+.services-item{
+    height: 350px;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    margin: 50px 0px 50px 0;
+    border-left: 2px solid #ECE9E4;
+    border-right: 2px solid #ECE9E4;
+    float:left;
+    width: 20%;
+    box-sizing: border-box;
+    border-top: 1px solid #1A1108;
+    border-bottom: 1px solid #1A1108;
+}
+
+.services-item:hover{
+    color: white;
+}
+
+
+
+.ser1{
+    background-image: url(../img/service1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: transform .3s;
+}
+
+.ser2{
+    background-image: url(../img/service2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.ser3{
+    background-image: url(../img/service3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ser4{
+    background-image: url(../img/service4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ser5{
+    background-image: url(../img/service5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.services-item-title{
+    padding-top: 100px;
+    font-size: 125%;
+    text-transform: uppercase;
+}
+.services-item-text{
+    font-size: 80%;
+    padding-bottom: 50px;
+}
+.services-item hr{
+    width: 100px;
+}
+/******* HISTORY SECTION **********/
+.history{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(../img/bgs1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.historysub{
+    margin: 0;
+    font-family: "Great vibes",serif;
+    font-size: 350%;
+    font-weight: 100;
+    line-height: 0;
+    padding-top: 50px;
+    color: #1A1108;
+}
+
+.historytit{
+    font-size: 300%;
+    line-height: 0;
+    color: #1A1108;
+
+}
+.fotohistoria{
+    margin: 5% 0% 7% 5%;
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/bghis.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #1A1108;
+    
+}
+
+.textohistoria{
+    margin-top: 1%;
+    padding: 50px;
+    width: 45%;
+    float: left;
+    text-align: justify;
+    box-sizing: border-box;
+    color: #1A1108;
+
+}
+
+/******* PARALLAX SECTION **********/
+.parallax{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    border-top: 1px solid #1A1108;
+    border-bottom: 1px solid #1A1108;
+}
+.parallaxtext{
+    font-family: "Great Vibes";
+    font-weight: 100;
+    font-size: 250%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 50px;
+    left: 50px;
+    color: #ECE9E4;
+
+}
+
+
+/******* TESTIMONY SECTION **********/
+.testimony{
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+    background-image: url(../img/bgs1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.testimony-item{
+    margin: 0;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    float:left;
+    width: 25%;
+    z-index: 0;
+}
+.testimony-item-pic{
+    margin:0 auto;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimony-item-title{
+    margin: 0;
+    padding: 20px 0 0px 0;
+    text-transform: capitalize;
+    font-size: 120%;
+}
+.testimony-item-text{
+    margin: 0;
+    padding: 15px 0 20px 0;
+    font-size: 80%;
+}
+.user1{
+    background-image: url(../img/user1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.user2{
+    background-image: url(../img/user2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.user3{
+    background-image: url(../img/user3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.user4{
+    background-image: url(../img/user4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Clase para arreglar el problema de tamaño automatico para elementos que flotan*/
+.clearfix{
+    display: table;
+}
+
+
+/******** FOOTER SECTION **********/
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-color:#1A1108;
+    position: relative;
+    color: #ECE9E4;
+    text-align: center;
+}
+#footpic{
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top:50px;
+    height:150px;
+}
+#foottext{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top:220px;
+}
+
+small a{
+    text-decoration: none;
+    color: #dbd4c8;
+    text-shadow: 1px 1px 1px #ede5d8;
+}
+
+/*ANIMACION*/
+
+svg {
+    position: absolute;
+    top: 40;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+
+
+
+  
+@media screen and (max-width: 850px) {
+    nav{
+        height: 65px;
+    }
+    li{
+        font-size: 100%;
+        margin-right: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    .movil{
+        padding: 0;
+        float: left;
+        width: 20%;;
+        display: block;
+        font-family: "Liu Jian Mao Cao";
+    }
+    .movil:hover{
+        cursor: pointer;
+    }
+    .movil h4{
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+        font-weight: 100;
+        font-size: 150%;
+        line-height: 65px;
+    }
+    .menu{
+        width: 80%;
+        line-height: 65px;
+    }
+    svg{
+        display: none;
+    }
+    .services-item{
+        height: 350px;
+        margin: 0;
+        padding: 0 20px 0 20px;
+        margin: 50px 0px 20px 0;
+        border-left: 0px;
+        border-right: 0px;
+        float:none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ser1{
+        margin-top:75px;
+    }
+    .ser3{
+        margin-bottom: 50px;
+    }
+    .services-item-text{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .historysub{
+        font-size: 230%;
+    }
+    .fotohistoria{
+        float:none;
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+        height: 400px;
+    }
+    .textohistoria{
+        margin-top: 0;
+        float:none;
+        width: 100%;
+    }
+    .parallax{
+        display: none;
+    }
+    
+    .testimony-item{
+        margin-top: 100px;
+        float:none;
+        width: 100%;
+        border-bottom: 1px solid #1A1108;
+    }
+    .testimony-item-text{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .sectiontit{
+        font-size: 200%;
+    }
+    .sectionsub{
+        font-size: 250%;
+    }
+    #foottext{
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+  }
+
+  @media screen and (max-width: 662px) {
+      .movil h4 span{
+          display: none;
+      }
+  }

@@ -1,0 +1,223 @@
+html{
+    background-image: url("../img/bgs1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header{
+    background-image: none;
+    padding-top: 150px;
+    height: auto;
+}
+.bgteam{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/bgteam.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top: 1px solid #1A1108;
+    border-bottom: 1px solid #1A1108;
+    text-align: center;
+}
+
+.teamtitle{
+    font-family: "Great Vibes";
+    font-size: 275%;
+    font-weight: 100;
+    color: #1A1108;
+    margin: 0;
+}
+
+.team{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.person{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+    background: #472f18;
+    border: 1px solid #1A1108;
+    box-shadow: 6px 6px 13px -6px rgba(26,17,8,1);
+    color: #ECE9E4;
+}
+.js2{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.person:hover{
+    background-color: #ECE9E4;
+    color: #1A1108;
+    cursor: pointer;
+
+}
+
+.personpic{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-bottom:  1px solid #1A1108;
+}
+.teampic1{
+    background-image: url("../img/chef1.jpg");
+}
+.teampic2{
+    background-image: url("../img/chef2.jpg");
+    background-position: center top;
+}
+.teampic3{
+    background-image: url("../img/chef3.jpg");
+    background-position: center top;
+}
+.persontext1{
+    text-align: center;
+    border-bottom:  1px solid #1A1108;
+
+}
+.persontext1 h4{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.persontext1 p{
+    font-weight: 400;
+    font-size: 80%;
+}
+.hidden{
+    display:none;
+}
+
+.oculta{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #1A1108;
+    background-image: url(../img/bgteamsec.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.maintitle{
+    font-family: "Great Vibes";
+    font-weight: 100;
+    font-size: 230%;
+}
+.cheftext{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.inst{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.instcontainer{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+.institle{
+    font-family: "Great Vibes";
+    font-size: 280%;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+.instpar{
+    padding: 0;
+    text-align: justify;
+}
+.instgallery{
+    width: 100%;
+}
+.gallery-item{
+    float: left;
+    margin: 1%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    border: 1px solid #1A1108;
+
+}
+.item1, .item2, .item5, .item6{
+    width: 24%;
+}
+.item3, .item4{
+    width: 47%;
+}
+
+.item1{
+    background-image: url(../img/gal1.jpg);
+    margin-left: 0;
+}
+.item2{
+    background-image: url(../img/gal2.jpg);
+}
+.item3{
+    width: 48%;
+    margin-right: 0;
+    background-image: url(../img/gal3.jpg);
+}
+.item4{
+    margin-left: 0;
+    background-image: url(../img/gal4.jpg);
+}
+.item5{
+    background-image: url(../img/gal5.jpg);
+}
+.item6{
+    width: 25%;
+    margin-right: 0;
+    background-image: url(../img/gal6.jpg);
+}
+
+footer{
+    margin-top: 50px;
+}
+
+@media all and (max-width:850px){
+    .person{
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    .item1{
+        margin: 0;
+        width: 49%;
+        margin-right: 2%;
+    }
+    .item2{
+        margin: 0;
+        width: 49%;
+    }
+    .item3{
+        margin: 20px 0 20px 0;
+        width: 100%;
+    }
+    .item4{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .item5{
+        margin: 0;
+        margin-right: 2%;
+        width: 49%;
+    }
+    .item6{
+        margin: 0;
+        width: 49%;
+    }
+
+}

@@ -1,0 +1,202 @@
+header{
+    background-image: url(../img/bgs1.jpg);
+    height: auto;
+}
+
+.mitad{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.bgcont{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid #1A1108;
+    border-bottom: 1px solid #1A1108;
+    
+}
+.formcont{
+    width: 60%;
+    margin: auto;
+    border: 1px solid #1A1108;
+    border-top: 5px solid #1A1108;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(../img/bgs1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+#bannertext{
+    font-family: "great Vibes";
+    font-size: 250%;
+    font-weight: 100;
+    color: #1A1108 ;
+
+}
+
+/* CALENDARIO*/
+  
+    .calendar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #1A1108;
+        text-align: center;
+    }
+
+    .calendar__picture {
+        position: relative;
+        height: 200px;
+        padding: 20px;
+        color: #ECE9E4;;
+        text-shadow: 0 2px 2px rgba(#1A1108, 0.2);
+        box-sizing: border-box;
+    }
+    .calendar__picture  h2 {
+        margin: 0;
+    }
+
+    .calendar__picture  h3 {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .calendar__date {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+        grid-gap: 10px;
+        box-sizing: border-box;
+    }
+
+    .calendar__day {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        font-weight: 600;
+        color: #1A1108;
+    }
+    .calendar__number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        color: #1A1108;
+    }
+
+    .lastday{
+        color: red;
+    }
+    .calendar__number:hover,
+    .calendar__day:hover{
+        background-color: #1A1108;
+        color: #ECE9E4;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .calendar__number:focus,
+    .calendar__day:focus{
+        background-color: #1A1108;
+        color: #ECE9E4;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .calendar p{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 125%;
+    }
+    .cal2, .cal3{
+        border-top: 1px solid #1A1108;
+        background: #1A1108;
+        color: #ECE9E4;
+    }
+
+    .cal3{
+        border-top: 1px solid #ECE9E4;
+    }
+    .cal3:hover, .cal2:hover{
+        background: #472f18;
+        cursor: pointer;
+    }
+
+    .centrar{
+        width: 100%;
+        margin: 40px;
+        margin-left: 0;
+        text-align: left;
+        position: relative;
+    }
+    
+
+    input{
+        -webkit-appearance: none;
+        background-color: rgba(255,255,255,0);
+        border: none;
+        border-bottom: 1px solid #1A1108 ;
+        position: absolute;
+        left: 30%;
+        color: #1A1108;
+        font-size: 125%;
+        font-weight: 100;
+    }
+    input:focus{
+        outline: none;
+    }
+    .aparte{
+        width: 80%;
+        margin: auto;
+        clear: both;
+        margin-top: 400px;
+    }
+
+    @media all and (max-width:1100px){
+        .mitad{
+            float: none;
+            width: 100%;
+        }
+        .mit2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            overflow: hidden;
+
+        }
+        .form__label{
+            width: 100%;
+        }
+        .aparte{
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .formcont{
+            margin-top: 0;
+            background-image: url('../img/bgs1.png');
+        }
+        .bgcont{
+            padding-top: 150px;;
+        }
+    }
+
+    @media all and (max-width:650px){
+        .formcont{
+            width: 100%;
+            background-image: url('../img/bgs1.jpg');
+        }
+        .bgcont{
+            padding-top: 80px;
+        }
+    }
